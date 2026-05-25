@@ -19,8 +19,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ================= CONFIGURATION =================
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TELEGRAM_TOKEN_HERE")
-CHAT_ID = os.getenv("CHAT_ID", "YOUR_CHAT_ID_HERE")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8997443231:AAHKDUhAdbbrD709O1-dFneDPmlxzCBilCc")
+CHAT_ID = os.getenv("CHAT_ID", "8005940008")
 NEWS_API_KEY = os.getenv("NEWS_API_KEY", "")
 
 BINANCE_PRICE_URL = "https://data-api.binance.vision/api/v3/ticker/price"
